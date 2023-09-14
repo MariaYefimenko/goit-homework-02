@@ -44,6 +44,10 @@ body {
     list-style: none;
 }
 
+.header-adress {
+    font-style: normal;
+}
+
 .header-address-list {
     list-style: none;
     font-style: normal;
