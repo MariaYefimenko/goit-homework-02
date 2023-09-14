@@ -1,4 +1,3 @@
 {
-  "files.autoSave": "onFocusChange",
-  "editor.autoClosingBrackets": "always"
+  "files.autoSave": "onFocusChange"
 }
