@@ -25,17 +25,16 @@ body {
     text-transform: uppercase;
 }
 
-.navigation-item {
+.navigation-item-link {
     text-decoration: none;
     color: #2E2F42;
-    font-family: Roboto;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-.navigation-item:hover,
-.navigation-item:active {
+.navigation-item-link:hover,
+.navigation-item-link:active {
     color:#404BBF;
 }
 
@@ -67,7 +66,6 @@ body {
 
 .main-header-first {
     color: #FFF;
-    font-family: Roboto;
     font-size: 56px;
     font-weight: 700;
     line-height: 1.06;
@@ -86,7 +84,6 @@ body {
 .main-button:active {
     background-color: #404BBF;
 }
-.second-section {}
 
 .visually-hidden {
     position: absolute;
@@ -104,8 +101,6 @@ body {
 .second-section-list {
     list-style: none;
 }
-
-.second-section-item {}
 
 .second-section-header {
     font-size: 20px;
@@ -142,8 +137,6 @@ body {
     background-color: #FFFFFF;
 }
 
-.third-section-img {}
-
 .third-section-hthree {
     font-size: 20px;
     font-weight: 500;
@@ -159,8 +152,6 @@ body {
     letter-spacing: 0.02em;
 }
 
-.fourth-section {}
-
 .fourth-section-header {
     font-size: 36px;
     font-weight: 700;
@@ -172,10 +163,6 @@ body {
 .fourth-section-list {
     list-style: none;
 }
-
-.fourth-section-item {}
-
-.fourth-section-img {}
 
 .fourth-section-hthree {
     font-size: 20px;
