@@ -4,6 +4,8 @@ body {
     background-color:#FFFFFF;
 }
 
+/*========================HEADER===================*/
+
 .header-logo-link {
     list-style: none;
     text-decoration: none;
@@ -47,8 +49,13 @@ body {
     font-style: normal;
 }
 
+.header-address-item {
+    font-style: normal;
+}
+
 .header-address-links {
     text-decoration: none;
+    color: #434455;
     font-style: normal;
     font-size: 16px;
     font-weight: 400;
@@ -59,6 +66,9 @@ body {
 .header-address-links:focus {
     color: #404BBF;
 }
+/*=======================================================*/
+
+/*========================MAIN===========================*/
 
 .main-section {
     background-color: #2E2F42;
@@ -87,14 +97,11 @@ body {
 .main-button:focus {
     background-color: #404BBF;
 }
+/*=========================================================*/
+
+/*====================SECOND===============================*/
 
 .visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
     white-space: nowrap;
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
@@ -110,6 +117,7 @@ body {
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 
 .second-section-text {
@@ -119,6 +127,10 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em; 
 }
+
+/*==========================================================*/
+
+/*======================THIRD==============================*/
 
 .third-section {
     background-color: #F4F4FD;
@@ -131,6 +143,7 @@ body {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     text-align: center;
+    color: #2e2f42;
 }
 
 .third-section-list {
@@ -146,6 +159,7 @@ body {
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 
 .third-section-text {
@@ -155,6 +169,8 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
+/*==========================================================*/
+/*============================FOURTH========================*/
 
 .fourth-section-header {
     font-size: 36px;
@@ -162,7 +178,8 @@ body {
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    text-align: center
+    text-align: center;
+    color: #2e2f42;
 }
 
 .fourth-section-list {
@@ -170,6 +187,7 @@ body {
 }
 
 .fourth-section-hthree {
+    color: #2e2f42;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
@@ -183,6 +201,8 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
+/*=======================================================*/
+/*=====================FOOTER============================*/
 
 .footer {
     background-color: #2E2F42;
