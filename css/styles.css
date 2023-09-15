@@ -44,7 +44,7 @@ body {
     list-style: none;
 }
 
-.header-adress {
+.head-adress {
     font-style: normal;
 }
 
@@ -69,6 +69,7 @@ body {
 .header-address-links:hover,
 .header-address-links:focus {
     color: #404BBF;
+    font-style: normal;
 }
 /*=======================================================*/
 
