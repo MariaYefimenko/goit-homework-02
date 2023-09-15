@@ -5,6 +5,9 @@ body {
 }
 
 /*========================HEADER===================*/
+.header-section {
+    font-style: normal;
+}
 
 .header-logo-link {
     list-style: none;
