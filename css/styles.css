@@ -57,11 +57,11 @@ body {
     font-style: normal;
 }
 
-.header-address-item {
+ul .header-address-item {
     font-style: normal;
 }
 
-.address {
+li .address {
     text-decoration: none;
     color: #434455;
     font-style: normal;
@@ -70,8 +70,8 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-.header-address-links:hover,
-.header-address-links:focus {
+li .address:hover,
+li .address:focus {
     color: #404BBF;
     font-style: normal;
 }
